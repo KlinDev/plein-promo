@@ -1,0 +1,406 @@
+@import url("fonts.css");
+  
+html {
+		font-size: 10px;
+		font-family: Century-Gothic, Arial, sans-serif;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+* { 
+	margin: 0; 
+	padding: 0;
+}
+body {
+	background-color: #fff;
+	color: #000;
+}
+a {
+	cursor: pointer; 
+	text-decoration: none;
+  color: #000;
+}
+a, button {
+	outline: none;
+}
+button:hover {
+	cursor: pointer;
+}
+img {
+		width: 100%;   
+		height: auto;  
+} 
+section .cta-btns .btn {
+  display: inline-block;
+  margin: 0 30px 30px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+  min-width: 28rem;
+  padding: 17px;
+  letter-spacing: 0.3rem;
+  -webkit-transition: all .2s ease-in 0s;
+  transition: all .2s ease-in 0s;
+  border: 1px solid;
+}
+section .cta-btns .btn:hover {
+	background: #fff;
+	border: 1px solid #000;
+	color: #000;
+}
+
+
+
+/* section sale-countdown *********************/
+.sale-countdown {
+		margin-bottom: 15px;
+		padding: 140px 0 10px;
+    background: #000;
+    text-align: center;
+}
+.sale-countdown .h1 {
+    color: #fff;
+    font-size: 13rem;
+    text-transform: uppercase;
+    font-family: Aktiv-Grotesk-bold, Arial, sans-serif;
+}
+.sale-countdown .cta-btns .btn { 
+	margin: 0 30px 30px;
+	padding: 13px;
+	background: #fff;
+	color: #000;
+	min-width: 22rem;	
+	border: 1px solid #fff;
+}
+.sale-countdown .cta-btns .btn:hover {
+	background: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.countdown {
+		margin: 130px 0 40px;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #fff;
+}
+.countdown-item {
+    display: inline-block;
+    font-family: Century-Gothic-bold, Arial, sans-serif;
+}
+.countdown-item .time-unit {
+    font-size: 8px;
+    text-transform: uppercase;
+    font-family: Century-Gothic, Arial, sans-serif;
+}
+.countdown-item .time-number { 
+    font-size: 3rem;
+    margin: 0 20px 20px;
+    letter-spacing: 0.3rem;
+}
+
+/* section sale-countdown end */
+
+
+
+/* section new-product *********************/
+.new-product {
+	text-align: center;
+}
+.new-product_info {
+		margin-bottom: 65px;
+    padding: 0 15px;
+}
+.new-product_info .h2 {
+    font-size: 4.8rem;
+    letter-spacing: 0.1rem;
+    font-family: Century-Gothic-bold, Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 110%;
+}
+span.text-top {
+    display: inline-block;
+    margin: 4px 0px 0px -1px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    vertical-align: top;
+    letter-spacing: 0;
+    line-height: 110%;
+    font-family: Century-Gothic-bold, Arial, sans-serif;
+}
+.new-product_banner {
+    margin-bottom: 25px;
+}
+.new-product_descr {
+    margin: 20px 0 25px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+	/* skeleton */
+.new-product.skeleton .h2 {
+	 font-family: Impact, Arial, sans-serif;
+}
+.new-product.skeleton span.text-top {
+    margin-top: 3px;
+}
+	/* no-limits */
+.new-product.no-limits .new-product_descr {
+    text-transform: uppercase;
+}
+
+
+/* section fashion-look *********************/
+.fashion-look {
+	padding: 45px 0;
+	background: #e2e2e2;
+	text-align: center;
+}
+.fashion-look_season {
+	display: inline-block;	
+	margin-top: 45px;	
+	font-size: 2.3rem;
+  font-family: Century-Gothic-bold, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.fashion-look_collection {
+	margin: 20px 0 25px;
+	font-size: 4.3rem;
+  font-family: Century-Gothic, Arial, sans-serif;
+  letter-spacing: 0.3rem;
+}
+.products-container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1920px;
+    width: 100%;
+}
+img.full-fashion-image {
+    width: 60%;
+}
+.fashion-thing {
+	position: absolute;
+	width: 30%;
+}
+.fashion-thing .hexagon {
+    position: relative;
+}
+.fashion-thing a.link {
+    position: absolute;
+    left: 0;
+    top: 1%;
+    width: 100%;
+}
+.fashion-thing.first { 
+    right: 4%;
+    top: 10%;
+}
+.fashion-thing.thirt {
+    right: 4%;
+    bottom: 10%;
+}
+.fashion-thing.sec {
+    left: 4%;
+    bottom: 35%;
+}
+.fashion-thing > a {
+    color: #000;
+}
+.fashion-thing .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4rem;
+}
+.fashion-thing .text .cta-text {
+    text-transform: uppercase;
+    font-size: 2rem;
+  font-family: Century-Gothic-bold, Arial, sans-serif;
+}
+.fashion-thing .text .product-name {
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+}
+
+/* slider */ 
+.swiper-wrapper {
+  height: auto;
+}
+.swiper-slide { 
+  width: auto; 
+  height: auto;
+  outline: none;
+}
+.swiper-button-prev {
+    left: 0;
+    background: url(../img/slider-arrow.svg) no-repeat center;
+}
+.swiper-button-next { 
+    right: 0;
+    background: url(../img/slider-arrow.svg) no-repeat center;
+    transform: rotate(180deg);
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+  display: none;
+}
+.swiper-button-prev, .swiper-button-next {
+  background-size: 43%;
+    width: 27px;
+    height: 44px;
+   outline: none; 
+}
+.swiper-button-next {
+    right: -7px;
+}
+.swiper-button-prev {
+    left: -7px;
+}
+.fashion-things_slider--mobile {
+  display: none;
+}
+.fashion-things_slider--mobile {
+      display: none;
+      width: 92%;
+      margin: 0 auto;
+  }
+.fashion-things_slider--mobile .cta-text {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    padding: 0px 5px 20px 5px;
+    font-family: Century-Gothic-bold, Arial, sans-serif;
+}
+a.fashion-thing_slider-item {
+    display: block;
+    margin: 10px auto;
+}
+a.fashion-thing_slider-item > div {
+    background: #fff;
+    margin: 0 10%;
+    position: relative;
+}
+.fashion-thing_big-image {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.fashion-thing_big-image .text {
+    position: absolute;
+    top: 6%;
+    font-size: 2.5vw; 
+}
+.fashion-thing_big-image.man .text {
+    left: 20%;
+}
+.fashion-thing_big-image.women .text {
+    right: 20%;
+}
+.fashion-thing_big-image .season {
+    /*font-size: 2.3rem;*/
+    font-size: 1.25vw;
+    text-transform: uppercase; 
+    font-weight: 800;
+    font-family: Century-Gothic-bold, Arial, sans-serif;
+    letter-spacing: 0.1rem;
+}
+.fashion-thing_big-image .collection-name {
+  /*font-size: 6.3rem;*/
+    font-size: 3.35vw;
+}
+.products-container.top {
+    margin-bottom: 60px;
+}
+    
+
+
+
+
+@media(max-width: 1500px) {
+	.fashion-thing .text {
+	    bottom: 2rem;
+	} 
+  .fashion-thing .text .product-name {
+    margin-bottom: 0;
+  }
+}
+
+
+
+@media(max-width: 1281px) { 
+
+	.fashion-thing .text .product-name { 
+		font-size: 2rem; 
+		margin-bottom: 3px; 
+		} 
+		.fashion-thing .text .cta-text {
+			font-size: 1.2rem;	
+		} 
+		.fashion-thing .text {
+			bottom: 1.5rem;	
+		}
+}
+
+
+@media(max-width: 767px) {
+		section .cta-btns .btn, .sale-countdown .cta-btns .btn {
+			margin: 0 0 15px;
+			width: 100%;
+		}
+		.cta-btns_wrap {
+	    padding: 0 15px;
+	}
+	.sale-countdown .h1 {
+    font-size: 9rem;
+	}
+	img.full-fashion-image {
+	    width: 80%;
+	}
+  .product-container.bottom {
+      margin-top: 20px;
+  }
+  .products-container.top {
+    margin-bottom: 0;
+  }
+	.products-container .fashion-thing {
+	    display: none;
+	}
+  .fashion-thing_big-image {
+    width: 95%;
+  }
+    .fashion-thing_big-image .collection-name {
+      font-size: 4vw;
+    }
+    .fashion-thing_big-image .season {
+      font-size: 1.8vw;
+      letter-spacing: normal;
+    }
+    .fashion-things_slider--mobile {
+      display: block; 
+      margin-bottom: 20px;  
+    }
+    .fashion-look_collection { 
+      font-size: 3rem;
+    }
+    .new-product_info .h2 {
+      font-size: 4rem;
+    }
+
+
+}
+
+
+@media(max-width: 420px) {
+	.countdown-item .time-number {
+		margin: 0 10px 20px;
+	}
+  html {
+    font-size: 7px;
+  }
+}
