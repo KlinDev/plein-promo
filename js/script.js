@@ -26,7 +26,6 @@ function count_down(){
   
    if(gap <= 0 ) {
      countDown = document.querySelector('.countdown');
-     content.innerHTML = text;
     } 
 }
 
