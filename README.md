@@ -1,2 +1,2 @@
 # plein-promo
-plein-promo-page
+Plein promo landing page
